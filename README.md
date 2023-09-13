@@ -1,7 +1,9 @@
 # 使用指南
 
 ## intro
-some intro
+```bash
+ gcc `pkg-config --cflags gtk+-3.0` -o output/out main.c `pkg-config --libs gtk+-3.0`
+```
 
 ## steps
 1. 安装编译环境和对应的工具 build-essential or "Development Tools"
