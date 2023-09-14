@@ -22,3 +22,6 @@ gtk_window_set_child(GTK_WINDOW(window), button);将button添加到window，
 pkg-config 还可以用于辅助配置上面的那个vscode json文件
 
 
+## Issues
+1. 当编译使用了 builder.ui 的程序后，执行时，必须在含 builder.ui 文件的目录下（以此为工作目录），
+否则会提示找不到 builder.ui 文件，所以有可能该文件是动态加载的，而不是编译时加载
