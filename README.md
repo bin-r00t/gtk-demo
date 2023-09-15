@@ -28,5 +28,5 @@ pkg-config 还可以用于辅助配置上面的那个vscode json文件
 
 ## tips
 Glade 工具可以用拖拽的方式创建组件。最好是将组件的描述文件单独放置，如放在 /usr/common/appname 下，
-当然也可以写死在程序里（用字符串），不过这样想要更新的话就需要重新编译了。
+当然也可以写死在程序里（用字符串 + gtk_builder_add_from_string()），不过这样想要更新的话就需要重新编译了。
 
