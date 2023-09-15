@@ -33,25 +33,38 @@ Glade 工具可以用拖拽的方式创建组件。最好是将组件的描述�
 
 
 ## instructions
-- Gtk 应用
+**Gtk 应用**
 通常包含多个文件，其中：
-1.一个二进制文件->通常安装到/usr/bin
-2.桌面文件->给桌面shell使用，包含name,icon,DBus name,启动的命令等，通常安装到/usr/share/applications
-3.icon->安装到/usr/share/icons/hicolor/48x48/apps
-4.settings schema:当程序里用到了GSettings时，把它的schema放到/usr/share/glib-2.0/schemas
+1. 一个二进制文件->通常安装到/usr/bin
+
+2. 桌面文件->给桌面shell使用，包含name,icon,DBus name,启动的命令等，通常安装到/usr/share/applications
+
+3. icon->安装到/usr/share/icons/hicolor/48x48/apps
+
+4. settings schema:当程序里用到了GSettings时，把它的schema放到/usr/share/glib-2.0/schemas
 并且运行 glib-compile-schemas 加载schema (有点不明所以，以后再说)
-5.其他文件，如果UI描述文件等
+
+5. 其他文件，如果UI描述文件等
 
 ## 学习主题
 GtkApplication
+
 templates
+
 resources
+
 application menus
+
 settings
+
 GtkHeaderBar
+
 GtkStack
+
 GtkSearchBar
+
 GtkListBox
+
 ...
 
 
